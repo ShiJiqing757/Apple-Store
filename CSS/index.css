@@ -1,0 +1,302 @@
+.nav{
+    width: 100%;
+    height: 44px;
+    background-color: #413c3c;
+}
+.nav ul{
+    width:1200px;
+    height: 44px;
+    margin: 0 auto;
+}
+.nav ul a{
+    width: 65px;
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #b3bfcb;
+    outline: none;
+}
+.nav ul a:hover{
+    color: white;
+}
+.nav ul a:active{
+    outline: none;
+}
+.nav ul a li{
+
+    font-size: 13px;
+}
+.nav ul a li img{
+    width: 20px;
+    height: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 1300px;
+    margin: 0 auto;
+}
+.main .bg {
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+}
+.main .bg .content{
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+    top: 50px;
+
+}
+.main .bg .content h1,p,a{
+    display: block;
+    text-align: center;
+}
+.main .bg .content h1{
+    font-size: 62px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.main .bg .content p{
+    font-size: 23px;
+    line-height: 37px;
+    margin-bottom: 30px;
+}
+.main .bg .content a{
+    margin-bottom: 90px;
+    font-size: 22px;
+    color: #0e7dd0;
+    outline: none;
+    text-decoration: none;
+}
+.main .bg .content a:hover{
+    text-decoration: underline;
+}
+.main .bg .content a:active{
+    color: #0e7dd0;
+    outline: none;
+}
+.main .bg .content img{
+    width: 960px;
+    height: 439px;
+}
+
+.main .choose{
+    width: 900px;
+    height: 320px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.main .choose h1{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.main .choose>p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main .choose p span{
+    font-weight: bold;
+}
+.main .choose div{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    margin: 0 80px;
+}
+.main .choose div img{
+    width: 50px;
+    height: 50px;
+}
+.main .choose div p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 10px 0;
+}
+.main .choose div .p{
+    font-weight: normal;
+}
+.main .choose div a{
+    font-size: 15px;
+    color: #0e7dd0;
+    outline: none;
+    text-decoration: none;
+}
+.main .choose div a:hover{
+    text-decoration: underline;
+}
+.main .choose div a:active{
+    color: #0e7dd0;
+    outline: none;
+}
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #f1f1f1;
+}
+.footer .fmain{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.footer .fmain .text{
+    height: 95px;
+    margin-bottom: 16px;
+}
+.footer .fmain .text p{
+    position: relative;
+    top: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 2px;
+    line-height: 15px;
+    color: #5e5d5d;
+}
+.footer .fmain .text p:nth-child(2){
+    margin-bottom: 20px;
+}
+.footer .fmain hr{
+    display: block;
+}
+.footer .fmain .apple{
+    display: flex;
+    margin: 15px 0;
+}
+.footer .fmain .apple a,p{
+    height: 20px;
+    margin: 0 10px 0 0;
+    font-size: 2px;
+    color: #5e5d5d;
+    outline: none;
+    text-decoration: none;
+}.footer .fmain .apple a:active{
+    outline: none;
+ }
+.footer .fmain .apple a img{
+    width: 15px;
+    height: 15px;
+    margin-right:0;
+}
+.footer .fmain .xuanXiang{
+    height: 350px;
+}
+.footer .fmain .xuanXiang div{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.footer .fmain .xuanXiang .box2,
+.footer .fmain .xuanXiang .box1 .jiazhiGuan,
+.footer .fmain .xuanXiang .box1 .about{
+    margin-right: 0;
+}
+.footer .fmain .xuanXiang .buy,
+.footer .fmain .xuanXiang .store,
+.footer .fmain .xuanXiang .box1{
+    width: 180px;
+}
+.footer .fmain .xuanXiang .box1 .fuwu,
+.footer .fmain .xuanXiang .box1 .zhanghu,
+.footer .fmain .xuanXiang .box1 .shangWu,
+.footer .fmain .xuanXiang .box1 .jiaoYu,
+.footer .fmain .xuanXiang .box1 .jiazhiGuan,
+.footer .fmain .xuanXiang .box1 .about{
+    display: block;
+}
+.footer .fmain .xuanXiang .box1 .zhanghu,
+.footer .fmain .xuanXiang .box1 .jiaoYu,
+.footer .fmain .xuanXiang .box1 .about{
+    position: relative;
+    top: 15px;
+}
+.footer .fmain .xuanXiang .buy h3,
+.footer .fmain .xuanXiang .box1 .fuwu h3,
+.footer .fmain .xuanXiang .box1 .zhanghu h3,
+.footer .fmain .xuanXiang .store h3,
+.footer .fmain .xuanXiang .box1 .shangWu h3,
+.footer .fmain .xuanXiang .box1 .jiaoYu h3,
+.footer .fmain .xuanXiang .box1 .jiazhiGuan h3,
+.footer .fmain .xuanXiang .box1 .about h3{
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.footer .fmain .xuanXiang .buy a,
+.footer .fmain .xuanXiang .box1 .fuwu a,
+.footer .fmain .xuanXiang .box1 .zhanghu a,
+.footer .fmain .xuanXiang .store a,
+.footer .fmain .xuanXiang .box1 .shangWu a,
+.footer .fmain .xuanXiang .box1 .jiaoYu a,
+.footer .fmain .xuanXiang .box1 .jiazhiGuan a,
+.footer .fmain .xuanXiang .box1 .about a{
+    display: block;
+    font-size: 2px;
+    color: #5e5d5d;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.footer .fmain .xuanXiang .buy a:hover,
+.footer .fmain .xuanXiang .box1 .fuwu a:hover,
+.footer .fmain .xuanXiang .box1 .zhanghu a:hover,
+.footer .fmain .xuanXiang .store a:hover,
+.footer .fmain .xuanXiang .box1 .shangWu a:hover,
+.footer .fmain .xuanXiang .box1 .jiaoYu a:hover,
+.footer .fmain .xuanXiang .box1 .jiazhiGuan a:hover,
+.footer .fmain .xuanXiang .box1 .about a:hover{
+    text-decoration: underline;
+}
+.foo,
+.foo p,
+.foo div{
+    font-size: 2px;
+    text-align: left;
+}
+.foo div{
+    margin-top: 10px;
+}
+.foo .first_p{
+    margin-bottom: 5px;
+}
+.foo .first_p a{
+    display: inline-block;
+}
+.foo div .last_p{
+    display: inline-block;
+    margin-right: 35px;
+}
+.foo div a{
+    display: inline-block;
+    color: #4f4e4e;
+    outline: none;
+    text-decoration: none;
+    padding: 0 8px;
+    text-align: left;
+    border-right: 1px solid rgba(94,93,93,0.3);
+}
+.foo div a:last-child{
+    border: none;
+}
+.foo p a{
+    color: #0e7dd0;
+    outline: none;
+    text-decoration: none;
+}
+.foo p a:hover{
+    text-decoration: underline;
+}
+.foo div a:hover{
+    text-decoration: underline;
+}
